@@ -1,5 +1,5 @@
 
-#### 🎧 MultiDeviceAudioUi 🎵  
+# 🎧 MultiDeviceAudioUi 🎵  
 *A feature-rich C# application for capturing and playing audio on multiple output devices with customizable settings.*  
 
 ---
