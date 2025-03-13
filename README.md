@@ -1,5 +1,5 @@
 
-### 🎧 MultiDeviceAudioUi 🎵  
+#### 🎧 MultiDeviceAudioUi 🎵  
 *A feature-rich C# application for capturing and playing audio on multiple output devices with customizable settings.*  
 
 ---
@@ -15,7 +15,7 @@
 
 ---
 
-## 🛠️ Tech Stack  
+### 🛠️ Tech Stack  
 🔹 **Language:** C# (.NET)  
 🔹 **Framework:** WPF (Windows Presentation Foundation)  
 🔹 **Audio Library:** NAudio  
@@ -24,7 +24,7 @@
 
 ---
 
-## 📂 Project Structure  
+### 📂 Project Structure  
 ```
 MultiDeviceAudioUi/
 │── src/
