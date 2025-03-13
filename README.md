@@ -62,7 +62,7 @@ cd MultiDeviceAudioUi
 ---
 
 ## 🎨 UI Preview  
-🚧 https://github.com/gauravjaiswal9/MultiCast_audio/blob/2f904481e18491c53fb9e1e77ee7175583dbb505/1.png
+🚧 (https://github.com/gauravjaiswal9/MultiCast_audio/blob/2f904481e18491c53fb9e1e77ee7175583dbb505/1.png)
 
 ---
 
