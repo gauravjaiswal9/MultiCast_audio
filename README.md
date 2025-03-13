@@ -62,7 +62,7 @@ cd MultiDeviceAudioUi
 ---
 
 ## 🎨 UI Preview  
-![Multi-Device Audio Enhancer](https://github.com/vkvive720/multi_audio_route/blob/0a25000b4ed304d5ac1df121ebac8893660fb1c3/Screenshot%202025-03-14%20001802.png)
+![Multi-Device Audio Enhancer](https://github.com/gauravjaiswal9/MultiCast_audio/blob/d1ea53fd360db2975136ce64785ad9f19957c5c5/1.png)
 
 
 ---
