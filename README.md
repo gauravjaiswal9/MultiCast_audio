@@ -1,100 +1,64 @@
-# Multi-Device Audio Route
+🎧 MultiDeviceAudioUi 🎵
+A feature-rich C# application for capturing and playing audio on multiple output devices with customizable settings.
 
-## Description
-Multi-Device Audio Router is a C# application that captures system audio and routes it to multiple output devices simultaneously. The application leverages **NAudio** and **WASAPI** to provide real-time audio routing, independent volume control, and adjustable delay for each output device. It is built with **.NET 6** and features a **WPF-based UI** for seamless user interaction.
+📌 Features
+✅ Multi-Device Audio Playback – Route system audio to multiple output devices.
+✅ Device Selection – Choose which output devices should play the audio.
+✅ Per-Device Volume Control – Adjust the volume level for each output device.
+✅ Custom Delay Control ⏳ – Add and modify delay separately for each device.
+✅ Live Audio Monitoring – Visualize the current playback status.
+✅ Low Latency Processing – Optimized to reduce playback delays.
+✅ User-Friendly UI 🎨 – Modern interface for an intuitive experience.
 
-## Features
-- 🎵 **Real-time System Audio Capture**: Captures system audio using **WASAPI loopback**.
-- 🔊 **Multi-Device Output Support**: Play system audio on multiple output devices at the same time.
-- 🎚 **Independent Volume Control**: Adjust volume separately for each output device.
-- ⏳ **Customizable Audio Delay**: Add different delays to different devices for synchronization.
-- 🖥 **Intuitive WPF UI**: User-friendly graphical interface for easy control.
-- 🛠 **Lightweight & Efficient**: Optimized for minimal latency and efficient CPU usage.
+🛠️ Tech Stack
+🔹 Language: C# (.NET)
+🔹 Framework: WPF (Windows Presentation Foundation)
+🔹 Audio Library: NAudio
+🔹 UI Framework: XAML
+🔹 Build System: Visual Studio
 
-## Installation
-### Prerequisites
-- Windows 10/11
-- .NET 6 or later
-- Visual Studio (Recommended)
-
-### Steps to Install and Run
-1. **Clone the repository**:
-   ```sh
-   git clone https://github.com/yourusername/MultiDeviceAudio.git
-   cd MultiDeviceAudio
-   ```
-2. **Open the project**: Open `MultiDeviceAudio.sln` in Visual Studio.
-3. **Install dependencies**:
-   ```sh
-   dotnet restore
-   ```
-4. **Build and run the application**:
-   ```sh
-   dotnet run
-   ```
-
-## Usage
-1. **Launch the application**.
-2. **Select output devices** from the list of available audio devices.
-3. **Adjust volume and delay** for each device individually.
-4. **Press Start** to begin routing system audio.
-5. **Modify settings** in real-time as needed.
-
-## Project Structure
-```
-MultiDeviceAudio
+📂 Project Structure
+bash
+Copy
+Edit
+MultiDeviceAudioUi/
 │── src/
-│   ├── MultiDeviceAudio.sln               # Solution file
-│   ├── MultiDeviceAudio/
-│   │   ├── MultiDeviceAudio.csproj        # Project file
-│   │   ├── Program.cs                     # Main application logic
-│   │   ├── AudioProcessor.cs              # Handles audio processing
-│   │   ├── AudioCapture.cs                # Captures audio from system
-│   │   ├── DeviceManager.cs               # Manages audio devices
-│   │   ├── UI/
-│   │   │   ├── MainWindow.xaml            # UI Layout (WPF)
-│   │   │   ├── MainWindow.xaml.cs         # UI Logic
-│   │   │   ├── VolumeControl.xaml         # UI for volume control
-│   │   │   ├── DelayControl.xaml          # UI for delay settings
-│   ├── Dependencies/
-│   │   ├── NAudio.dll                      # External Audio Library
-│   │   ├── Newtonsoft.Json.dll             # JSON Handling
-│── docs/                                   # Documentation
-│   ├── README.md
-│   ├── CONTRIBUTING.md
-│   ├── LICENSE
-│── .gitignore                              # Ignore unnecessary files
-│── README.md                               # Project Overview
-│── LICENSE                                 # License Information
-```
+│   ├── MainWindow.xaml        # UI Layout
+│   ├── MainWindow.xaml.cs     # UI Logic
+│   ├── AudioManager.cs        # Core audio processing
+│   ├── DeviceController.cs    # Handles output device selection
+│   ├── VolumeController.cs    # Adjusts volume per device
+│   ├── DelayController.cs     # Implements delay for each output
+│   └── Utils.cs               # Helper functions
+│── assets/                    # UI icons and images
+│── README.md                  # Project documentation
+│── MultiDeviceAudioUi.sln      # Solution file
+│── LICENSE                    # License details
+│── .gitignore                  # Git ignored files
+🚀 Installation & Setup
+1️⃣ Prerequisites
+Install Visual Studio (latest version)
+Install .NET 6.0 or higher
+Install NAudio NuGet Package (Install-Package NAudio)
+2️⃣ Clone Repository
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/MultiDeviceAudioUi.git
+cd MultiDeviceAudioUi
+3️⃣ Build & Run
+Open MultiDeviceAudioUi.sln in Visual Studio
+Restore dependencies
+Click Start (or press F5) to run the application
+🎨 UI Preview
+🚧 Coming Soon – Screenshots of the UI
 
-## Technologies Used
-- **C# .NET 6+** – Core application logic
-- **NAudio** – Audio processing and routing
-- **WASAPI (Windows Audio Session API)** – Capturing system audio
-- **WPF (XAML)** – UI Design
-- **GitHub Actions** – CI/CD Pipeline (Optional)
+🤝 Contributing
+🔹 Fork this repository
+🔹 Create a feature branch (git checkout -b feature-name)
+🔹 Commit changes (git commit -m "Add new feature")
+🔹 Push to branch (git push origin feature-name)
+🔹 Open a pull request
 
-## Contribution
-We welcome contributions! Follow these steps:
-1. **Fork the repository**.
-2. **Create a new branch**:
-   ```sh
-   git checkout -b feature-branch
-   ```
-3. **Commit your changes**:
-   ```sh
-   git commit -m "Added new feature"
-   ```
-4. **Push to GitHub**:
-   ```sh
-   git push origin feature-branch
-   ```
-5. **Open a Pull Request**.
-
-## License
-This project is licensed under the **MIT License** – You are free to use and modify it.
-
-## Contact
-For any issues or feature requests, please open an issue on **GitHub Issues** or contact **your_email@example.com**.
-
+⚖️ License
+📜 This project is licensed under the MIT License – feel free to modify and use it.
